@@ -12,7 +12,7 @@
 
 ### 2. EDA 및 해석
    - 성별 및 국가 분포
-   <img width="443" height="443" alt="graph" src="https://github.com/user-attachments/assets/59bfc988-b878-4eda-805e-dfff54cd2061" /><img width="680" height="467" alt="graph2" src="https://github.com/user-attachments/assets/4c643b50-3b31-4672-b522-737f9bead8d0" />
+   <img width="300" height="300" alt="graph" src="https://github.com/user-attachments/assets/59bfc988-b878-4eda-805e-dfff54cd2061" /><img width="400" height="270" alt="graph2" src="https://github.com/user-attachments/assets/4c643b50-3b31-4672-b522-737f9bead8d0" />
 
 
 
