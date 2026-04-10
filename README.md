@@ -20,7 +20,7 @@
 
 
 ### 3. AutoML
-<img width="817" height="479" alt="image" src="https://github.com/user-attachments/assets/e0594472-619f-478d-9fb4-2c38784ef6e2" />
+<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/e0594472-619f-478d-9fb4-2c38784ef6e2" />
 
 - 이 중 `CatBoost`, `Gradient Boosting Classifier`, `Extreme Gradient Boosting`, `Ada Boost Classifier` 모델 사용
 
