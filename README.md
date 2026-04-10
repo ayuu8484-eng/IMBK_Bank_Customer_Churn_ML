@@ -25,8 +25,8 @@
 - 이 중 CatBoost, Gradient Boosting Classifier, Extreme Gradient Boosting, Ada Boost Classifier 모델 사용
 
 ### 4. Hyperarameter Tuning
-- CatBoost: n_estimators => 100~300
-            depth => 4~10
+- CatBoost: n_estimators => 100 ~ 300
+            depth => 4 ~ 10
 - Gradient Boosting Classifier: n_estimators => 100 ~ 300
                               max_depth: 4 ~ 10
 - Extreme Gradient Boosting: n_estimators => 100 ~ 300
@@ -37,6 +37,7 @@
 
 
 최적 파라미터를 적용한 각 모델의 F1 Score 출력
+
 <img width="518" height="80" alt="image" src="https://github.com/user-attachments/assets/d5c240ed-6837-45d6-b7b9-4178ef03ea7c" />
 
 5. Stacking Pipe
