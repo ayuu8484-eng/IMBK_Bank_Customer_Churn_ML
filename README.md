@@ -40,12 +40,12 @@
 
 <img width="518" height="80" alt="image" src="https://github.com/user-attachments/assets/d5c240ed-6837-45d6-b7b9-4178ef03ea7c" />
 
-5. Stacking Pipe
+### 5. Stacking Pipe
 전방모델: CatBoost, Gradient Boosting Classifier, Ada Boost Classifier
 후방모델: Extreme Gradient Boosting
 위의 모델들을 stacking하여 F1 Score를 출력했으나 0.57로 성능이 높게 출력되지 않음.
 
-7. Shap value
+### 6. Shap value
 <img width="757" height="550" alt="image" src="https://github.com/user-attachments/assets/1374d2ed-f0d2-48d1-b2b2-be98290f06cf" />
 
 churn 이탈여부 : 0 = 유지, 1 = 이탈
@@ -62,7 +62,7 @@ churn 이탈여부 : 0 = 유지, 1 = 이탈
 - tenure: 이탈률에 크게 영향을 주지 않는 것으로 보임.
 - credit_card: 이탈률에 영향이 거의 없는것으로 보임.
 
-8. Reference
+### 7. Reference
 - 데이터 전처리 및 EDA : Pandas & Numpy
 - 머신러닝 프레임워크 및 알고리즘: PyCaret(AutoML), Scikit-learn, Ensemble Learing(Boosting)
 - 하이퍼파라미터 최적화 및 모델 해석: Optuna, SHAP
