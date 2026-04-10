@@ -46,7 +46,7 @@
 위의 모델들을 stacking하여 F1 Score를 출력했으나 0.57로 성능이 높게 출력되지 않음.
 
 ### 6. Shap value
-<img width="757" height="550" alt="image" src="https://github.com/user-attachments/assets/1374d2ed-f0d2-48d1-b2b2-be98290f06cf" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/1374d2ed-f0d2-48d1-b2b2-be98290f06cf" />
 
 **churn 이탈여부** : 0 = 유지, 1 = 이탈
 - **products_number**: 3집군으로 나뉘어서 뚜렷하게 분류가 된 것으로 보임. 은행에서 이용 중인 상품 수가 낮을수록 이탈률 높다고 보임.
