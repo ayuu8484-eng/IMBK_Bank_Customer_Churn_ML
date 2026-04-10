@@ -22,17 +22,17 @@
 ### 3. AutoML
 <img width="817" height="479" alt="image" src="https://github.com/user-attachments/assets/e0594472-619f-478d-9fb4-2c38784ef6e2" />
 
-이중에 CatBoost, Gradient Boosting Classifier, Extreme Gradient Boosting, Ada Boost Classifier 모델 사용
+- 이 중 CatBoost, Gradient Boosting Classifier, Extreme Gradient Boosting, Ada Boost Classifier 모델 사용
 
 ### 4. Hyperarameter Tuning
 - CatBoost: n_estimators => 100~300
             depth => 4~10
-- Gradient Boosting Classifier: n_estimators => 100~300
-                              max_depth: 4~10
-- Extreme Gradient Boosting: n_estimators => 100~300
-                              max_depth => 3~10
-- Ada Boost Classifier: n_estimators => 50~300
-                        learning_rate => 0.01, 1.0
+- Gradient Boosting Classifier: n_estimators => 100 ~ 300
+                              max_depth: 4 ~ 10
+- Extreme Gradient Boosting: n_estimators => 100 ~ 300
+                              max_depth => 3 ~ 10
+- Ada Boost Classifier: n_estimators => 50 ~ 300
+                        learning_rate => 0.01 ~ 1.0
 
 
 
