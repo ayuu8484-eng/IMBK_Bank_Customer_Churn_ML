@@ -12,9 +12,15 @@
 
 ### 2. EDA 및 해석
    - 성별 및 국가 분포
-<img width="300" height="300" alt="graph" src="https://github.com/user-attachments/assets/59bfc988-b878-4eda-805e-dfff54cd2061" /> <img width="400" height="250" alt="graph2" src="https://github.com/user-attachments/assets/4c643b50-3b31-4672-b522-737f9bead8d0" />
+   <img width="300" height="300" alt="graph" src="https://github.com/user-attachments/assets/59bfc988-b878-4eda-805e-dfff54cd2061" /> <img width="400" height="250" alt="graph2" src="https://github.com/user-attachments/assets/4c643b50-3b31-4672-b522-737f9bead8d0" />
+      - 여성고객이 남성보다 약 10% 분포가 높은 것으로 확인.
+      - 국가는 프랑스 고객이 압도적인 비중을 차지
 
 
+### 3. AutoML
+<img width="817" height="479" alt="image" src="https://github.com/user-attachments/assets/e0594472-619f-478d-9fb4-2c38784ef6e2" />
+
+이중에 CatBoost, Gradient Boosting Classifier, Extreme Gradient Boosting, Ada Boost Classifier 모델 사용
 
 깃 레포 이름: IMBK_Bank_Customer_Churn_ML
 1. 프로젝트명: 고객 이탈 분류 ML 및 인사이트 분석
