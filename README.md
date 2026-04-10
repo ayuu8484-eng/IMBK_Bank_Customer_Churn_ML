@@ -8,7 +8,7 @@
 ### 1. 데이터 전처리
    - 분석의 효율성을 위해 고유 식별값인 `customer_id` 컬럼을 제거
    - 범주형 변수인 `country` `gender` 컬럼은 머신러닝 모델이 학습할 수 있도록 `LabelEncoder`를 사용하여 수치형 데이터로 변환
-   - 전체 데이터를 학습용(Train)과 검증용(Valid)으로 분리한 뒤, 특성(Feature) 간의 단위 차이를 조정하기 위해 StandardScaler를 적용
+   - 전체 데이터를 학습용(Train)과 검증용(Valid)으로 분리한 뒤, 특성(Feature) 간의 단위 차이를 조정하기 위해 `StandardScaler`를 적용
 
 ### 2. EDA 및 해석
    - 성별 및 국가 분포
@@ -22,7 +22,7 @@
 ### 3. AutoML
 <img width="817" height="479" alt="image" src="https://github.com/user-attachments/assets/e0594472-619f-478d-9fb4-2c38784ef6e2" />
 
-- 이 중 CatBoost, Gradient Boosting Classifier, Extreme Gradient Boosting, Ada Boost Classifier 모델 사용
+- 이 중 `CatBoost`, `Gradient Boosting Classifier`, `Extreme Gradient Boosting`, `Ada Boost Classifier` 모델 사용
 
 ### 4. Hyperarameter Tuning
 - CatBoost: n_estimators => 100 ~ 300
@@ -41,8 +41,8 @@
 <img width="518" height="80" alt="image" src="https://github.com/user-attachments/assets/d5c240ed-6837-45d6-b7b9-4178ef03ea7c" />
 
 ### 5. Stacking Pipe
-전방모델: CatBoost, Gradient Boosting Classifier, Ada Boost Classifier
-후방모델: Extreme Gradient Boosting
+전방모델: `CatBoost`, `Gradient Boosting Classifier`, `Ada Boost Classifier`
+후방모델: `Extreme Gradient Boosting`
 위의 모델들을 stacking하여 F1 Score를 출력했으나 0.57로 성능이 높게 출력되지 않음.
 
 ### 6. Shap value
